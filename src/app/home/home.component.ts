@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -14,12 +15,13 @@ export class HomeComponent implements OnInit {
   };
   //declaración de formdata
   
-  constructor() { }
+  constructor(private _router:Router) { }
 
   ngOnInit(): void {
   }
 
   submit(){
     console.log(this.formData);
+    this._router.navigate(["result"],{queryParams:this.formData});
   }
 }
