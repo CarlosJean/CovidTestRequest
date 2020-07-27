@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+
+section div{
+	display: flex;
+	flex-direction: column;
+	background-color: #f0f0f0;
+	padding: 1% 10% 1% 10%;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+section div img{
+    align-self: center;
+    width: 60%;
+}
+
+section div form{
+    display: flex;
+    flex-flow: column wrap;
+}
