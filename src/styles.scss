@@ -1,2 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-/* @import "~bootstrap/dist/css/bootstrap.css"; */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.form-title {
+	text-align: center;
+	background: #602f60;
+	color: white;
+	padding: 10px;
+}
+
+/* Home */
+app-home {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background-color: #f2f2f2;
+	justify-content: center;
+}
+/* Home */
+

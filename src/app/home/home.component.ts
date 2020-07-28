@@ -9,7 +9,10 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
   //declaración de formdata
   formData = {
-    fullname: null,
+    firstName: null,
+    secondName: null,
+    surname: null,
+    secondSurname: null,
     email: null,
     description: null,
   };

@@ -1,26 +1,11 @@
-section{
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-}
-
-
-section div{
-	display: flex;
-	flex-direction: column;
-	background-color: #f0f0f0;
-	padding: 1% 10% 1% 10%;
-	width: 80%;
-	border-radius: 10px;
+#dvHome {
+	background: white;
 	margin-top: 10px;
+	border-radius: 5px;
+	width: 75%;
+	box-shadow: 0px 0px 7px #686565;
 }
 
-section div img{
-    align-self: center;
-    width: 60%;
-}
-
-section div form{
-    display: flex;
-    flex-flow: column wrap;
+form {
+	padding: 2%;
 }
