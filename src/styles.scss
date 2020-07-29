@@ -5,18 +5,24 @@
 
 .form-title {
 	text-align: center;
-	background: #602f60;
+	background: #433a7f;
 	color: white;
 	padding: 10px;
 }
 
-/* Home */
-app-home {
+/* App-home */
+app-home{
+	width: 100%;
 	display: flex;
-	align-items: center;
-	height: 100%;
-	background-color: #f2f2f2;
 	justify-content: center;
+	align-self: center;
 }
-/* Home */
+/* App-home */
 
+/* app-help */
+app-help {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+/* app-help */

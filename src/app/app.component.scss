@@ -1,13 +1,18 @@
 /* Sidebar */
  app-side-nav{
-	background-color: #602f60;
+	background-color: #433a7f;
     color: white;
 } 
 /* Sidebar */
 
 /* Content */
-section{
-    height: 100vh;
-    padding: 0px;
+#content {
+    display: flex;
+    justify-content: center;
+	flex-flow: row;
+	height: 100vh;
+	padding: 0px;
+	background: #e6e5e5;
 }
 /* Content */
+
